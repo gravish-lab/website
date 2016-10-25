@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gravish lab</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Gravish lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    
+    
+    <lastBuildDate>Mon, 24 Oct 2016 10:36:33 PDT</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>UC_riverside</title>
+      <link>http://localhost:1313/news/UC_riverside/</link>
+      <pubDate>Mon, 24 Oct 2016 10:36:33 PDT</pubDate>
+      
+      <guid>http://localhost:1313/news/UC_riverside/</guid>
+      <description>&lt;p&gt;Prof. Gravish will be giving a talk at UC Riverside next on Halloween.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 24 Oct 2016 10:24:29 PDT</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;about:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About&lt;/h1&gt;
+
+&lt;p&gt;The Gravish Lab was founded in the Mechanical and Aerospace Engineering at UC San Diego in July, 2016.&lt;/p&gt;
+
+&lt;h1 id=&#34;lab-mission:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Lab mission&lt;/h1&gt;
+
+&lt;p&gt;We aim to further the scientific understanding of movement and manipulation in biological systems; and to apply this knowledge towards new engineering paradigms in robot design, fabrication, and control. To accomplish this we work at the intersections of robotics, physics, and biology. We value intellectual diversity, thinking outside the box, and outright curiosity. We are a team, and while individual advancements may be made, they are fostered in a collaborative environment where we challenge and support each other.&lt;/p&gt;
+
+&lt;h1 id=&#34;core-values:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Core values&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;We are supportive of our lab mates, value diversity and equity among group members, and XX.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;We strive to develop and distribute open source tools&amp;mdash;software and
+hardware&amp;mdash;that accelerate science and engineering progress.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;We value the role of science education and seek opportunities to interact with local communities, we are so excited about our work that we can&amp;rsquo;t wait to get other people excited about it.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>contextual_forum</title>
+      <link>http://localhost:1313/news/contextual_forum/</link>
+      <pubDate>Sat, 01 Oct 2016 10:36:04 PDT</pubDate>
+      
+      <guid>http://localhost:1313/news/contextual_forum/</guid>
+      <description>&lt;p&gt;Looking forward to seeing the San Diego robotics community come together at the contextual robotics forum the end of this month.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>start</title>
+      <link>http://localhost:1313/news/start/</link>
+      <pubDate>Fri, 01 Jul 2016 10:34:49 PDT</pubDate>
+      
+      <guid>http://localhost:1313/news/start/</guid>
+      <description>&lt;p&gt;The Gravish lab has opened in the &lt;a href=&#34;http://maeweb.ucsd.edu/&#34;&gt;mechanical engineering department&lt;/a&gt; at &lt;a href=&#34;http://ucsd.edu&#34;&gt;UC San Diego&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

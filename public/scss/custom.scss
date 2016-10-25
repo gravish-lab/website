@@ -1,0 +1,213 @@
+/*    SASS coloring ------------------------------------------------
+*/
+
+
+$colors: #F2F0EC,#F2F0EC,#F2777A,#515151,#515151,#515151,#99CC99,#66CCCC, #333000, #33C3F0;
+// $colors: #B9B9B9,#A9A9A9,#FF3B3F,#EFEFEF,#000000,#2EA4FF,#FFFFFF,#333000, #33C3F0;
+
+
+$color-bkg: nth($colors, 1);       /*    #B9B9B9;*/    
+$color-header: nth($colors, 2);
+$color-title: nth($colors, 3);       /*    #B9B9B9;*/    
+$color-subtitle: nth($colors, 4);       /*    #B9B9B9;*/    
+$color-branding: nth($colors, 5);       /*    #B9B9B9;*/    
+$color-heading1: nth($colors, 6);       /*    #B9B9B9;*/    
+$color-heading2: nth($colors, 6);       /*    #B9B9B9;*/    
+$color-heading3: nth($colors, 6);       /*    #B9B9B9;*/    
+$color-heading4: nth($colors, 6);       /*    #B9B9B9;*/    
+$color-bodytext: nth($colors, 7);       /*    #B9B9B9;*/
+$color-link: nth($colors, 4);       /*    #B9B9B9;*/    
+$color-link_active: nth($colors, 9);       /*    #B9B9B9;*/    
+
+$color-list: #FFFFFF;
+$color-menu_border: #888888;
+$body_block_1: #333333;
+
+/*#F2F0EC,#E8E6DF,#F2777A,#FFFFFF,#515151,#515151,#99CC99,#66CCCC*/
+
+/*    Background and header styles ------------------------------------------------
+*/
+
+body {
+    background: $color-bkg;
+    overflow-y: scroll;
+}
+
+.header {
+    background: $color-header;    
+}
+
+
+/*    Font styles ------------------------------------------------
+*/
+
+p {
+    /*color: #207CB2;*/
+    color: $color-bodytext;
+}
+
+h1, h2, h3, h4, h5, h6  {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.yellow {
+    color: #FFBB54;
+}
+
+.red {
+    color: #FF3B3F;
+}
+
+.black {
+    color: #111111;
+}
+
+.blue {
+    color: #2EA4FF;
+}
+
+.body_block_1 {
+    background-color: $body_block_1;
+}
+
+/*    List style ------------------------------------------------         */
+
+ul {
+    color: $color-list;
+}
+
+/*    List style ------------------------------------------------         */
+
+.title {
+    color: $color-title;
+    /*color: #EFEFEF;*/
+    font-size: 80px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+    /*height: 80px;*/
+}
+
+.subtitle {
+    color: $color-subtitle;
+    /*color: #FF3B3F;*/
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.dot {
+    color: $color-title;
+    font-size: 100px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+}
+
+.branding {
+    color: $color-branding;
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    /*margin-top: 20px;*/
+}
+
+
+/*    Media queries  ------------------------------------------------         */
+
+@media (max-width: 600px) { 
+    .wide { 
+        display: none; 
+        } 
+    }
+
+@media (min-width: 600px) { 
+    .narrow { 
+        display: none; 
+        } 
+    }
+
+
+.nav_container {
+    width: 100%;
+    position: relati;
+    opacity: 1;
+    text-align: center;
+}
+
+@media (min-width: 750px) {
+  /* Navbar */
+  .navbar + .docs-section {
+    border-top-width: 0; }
+  .navbar,
+  .navbar-spacer {
+    display: block;
+    width: 100%;
+    height: 6.5rem;
+    background: $color-header;
+    z-index: 99;
+    border-top: 1px solid $color-menu_border;
+    /*border-bottom: 1px solid #eee; */}
+  .navbar-spacer {
+    display: none; }
+  .navbar > .container {
+    width: 100%; }
+  .navbar-list {
+    list-style: none;
+    margin-bottom: 0; }
+  .navbar-item {
+    display: inline;
+    /*position: relative;
+    float: left;*/
+    margin-bottom: 0; }
+  .navbar-link {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin-right: 35px;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: $color-link; }
+  .navbar-link.active {
+    color: $color-link_active; }
+
+  .has-docked-nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+    -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
+    box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
+    }
+  .has-docked-nav .navbar-spacer {
+    display: block; }
+  /* Re-overiding the width 100% declaration to match size of % based container */
+  .has-docked-nav .navbar > .container {
+    width: 80%; }
+}
+/*    Badge for ------------------------------------------------         */
+
+.badge {
+    background: #e0e3e5;
+    font-size: 12.75px;
+    display: inline-block;
+    line-height: 1;
+    padding: 4px 7px 3px 7px;
+    color: #0f0f0f;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
+}
