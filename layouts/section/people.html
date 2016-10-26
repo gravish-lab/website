@@ -17,8 +17,15 @@
         <div class="four columns">  
             <h5 style="margin-bottom: 0em">{{ .Params.name }}</h5>
             <p style="margin-bottom: 0em">{{ .Params.email }}</p>
-            <span class="p" style="margin-bottom: 0em">CV: &nbsp;</span><a href="/PDF/{{ .Params.cv }}" style="margin-bottom: 0em"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            {{ if .Params.cv }}
+            <span class="p" style="margin-bottom: 0em">CV: &nbsp;</span><a href="/PDF/{{ .Params.cv }}" style="margin-bottom: 0em"><i 
+            class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            {{ end }}
+
+            {{ if .Params.websit }}
             <a href="{{ .Params.website }}" style="margin-bottom: 0em">{{ .Params.website }}</a>
+            {{ end }}
+
             {{ if .Params.image }}
             <img src="/images/{{ .Params.image }}" style="width: 100%; margin-top: 1em">
             {{ end }}

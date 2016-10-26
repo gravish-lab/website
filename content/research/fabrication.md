@@ -7,4 +7,4 @@ img = ""
 +++
 
 
-Dynamic milliscale robots challenge current fabrication methods and thus new approaches are needed. We develop new design paradigms for micro-robots using laminate based fabrication methods, building up three-dimensional robots from layered laminates.   
+Milliscale and microscale robots capable of dynamic and dexterous movement challenge current fabrication methods. We need new approaches to develop robots for operation at these scales. In the Gravish lab we are developing new design paradigms for micro-robots using laminate based fabrication methods, 3D printing concepts, and traditional machining, to fabricate new forms of microrobots.

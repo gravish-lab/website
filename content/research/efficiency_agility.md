@@ -6,4 +6,4 @@ img = ""
 
 +++
 
-Locomotion power efficiency of milli-scale robots can be improved by designing resonant actuation systems. However, resonance which favors actuation at a specific frequency, and agility which favors actuation across a wide range of frequencies are in conflict. We explore how mechanical design can resolve this conflict and enable agile and low-power microrobots.
+Locomotion power efficiency of milli-scale robots can be improved by designing resonant actuation systems. However, resonance and agility require conflicting modes of actuation: resonance requires actuation at a single frequency and agility favors actuation across a wide range of frequencies. We can resolve this conflict through mechanical design in microrobots. Through this project we seek principles of mechanical design for agile and efficient microrobots.
