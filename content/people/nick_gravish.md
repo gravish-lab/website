@@ -9,7 +9,7 @@ current = true
 date = "2016-06-01T22:09:29-07:00"
 draft = false
 title = "nick_gravish"
-
+CV = "CV_NGG.pdf"
 +++
 
 
