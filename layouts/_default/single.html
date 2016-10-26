@@ -1,28 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
 
 {{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
 
-</head>
-<bodu>
 
-<!-- Primary Page Layout
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-{{partial "navbar.html" . }}
-    
-<div class="body_block_1">
-  <div class="container">
-    <div class="row" style="padding-top: 2em;">
-      <ul>
-
-        {{ range where .Data.Pages "Section" "news" }}
-          {{ .Render "li" }}
-        {{ end }}
-      </ul> 
-      </div>
-  </div>
+<div class="container">
+  <div class="row" style="padding-top: 2em;">
+    <ul>
+      {{ range .Data.Pages }}
+        {{ .Content }}
+      {{ end }}
+    </ul> 
+    </div>
 </div>
+
+
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

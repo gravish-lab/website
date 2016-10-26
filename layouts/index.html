@@ -1,79 +1,64 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
 {{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
 
-</head>
-<body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	{{partial "navbar.html" . }}
-		
-	<div class="body_block_1">
-		<div class="container">
-			<div class="row" style="padding-top: 2em;">
-			  <div class="one-half column">
-					<h2 class="blue center">Research</h2>
-					<p>We aim to further the scientific understanding of movement and manipulation in biological systems; and to apply this knowledge towards new engineering paradigms in robot design, fabrication, and control. To accomplish this we work at the intersections of robotics, physics, and biology. We value intellectual diversity, thinking outside the box, and outright curiosity. We are a team, and while individual advancements may be made, they are fostered in a collaborative environment where we challenge and support each other.</p>
-		      </div>
+<div>
+	<div class="container">
+		<div class="row" style="margin-top: 2em;">
+		  <div class="one-half column">
+		  		<h4 class=" center"> &nbsp</h4>
+				<p>We aim to further the scientific understanding of movement and manipulation in biological systems; and to apply this knowledge towards new engineering paradigms in robot design, fabrication, and control. To accomplish this we work at the intersections of robotics, physics, and biology. Our current focus is on movement and manipulation in milli-scale robot and biological systems. We develop new fabrication techniques for construction of robots at milli-meter scales. Experiments with agile and dexterous organisms can aid in developing intuition and understanding of effective movement strategies at small-scales.</p>
+				<ul>
+				<li> Micro-robotics fabrication </li>
+				<li> Mechanisms design for stable, dynamic movement </li>
+				<li> Biomechanics of rapid flight maneuvers </li>
+				<li> Manipulation in biology </li>
+				<li> Swarm robots and biology </li>
+				</ul>
 
-		      <div class="one-half column">
-					<h2 class="yellow center">News</h2>
-					<ul>
-						{{ range where .Data.Pages "Section" "news" }}
-							{{ .Render "li" }}
-						{{ end }}
-					</ul>	
-		      </div>
-		    </div>
+				<a href="/research/">learn more <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
+	      </div>
+
+	      <div class="one-half column">
+				<h4 class=" center">News</h4>
+				<ul style="list-style-type: none">
+					{{ range first 3 (where .Data.Pages.ByDate "Section" "news").Reverse }} 
+						{{ .Render "li" }}
+					{{ end }}
+					<a href="/news/">learn more <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
+				</ul>	
+	      </div>
+	    </div>
+	</div>
+</div>
+
+<div>
+	<div class="container">
+	    <div class="row" style="margin-top: 2em;">
+		  <div class="one-half column">
+		  	
+			<h4 class="center">Openings</h4>
+			<div class="highlight">	
+				<p class="white" style="margin-top: 10px;"><b class="black"> PhD students: </b> The Gravish lab will be recruiting 2-3 PhD students for Fall, 2017 in the Mechanical & Aerospace Engineering department. Interested students are encouraged to contact PI Gravish with enquiries. </p>
+				<p class="white" style="margin-bottom: 10px;"><b class="black"> Research technician: </b> The Gravish lab will be recruiting a full time research technician. More details to follow. </p>
+			 </div>
+	      </div>
+
+	      <div class="one-half column">
+				<h4 class=" center">Recent papers</h4>
+			
+					{{ $num_papes := len (where .Data.Pages "Section" "publications") }}
+					{{ range $index, $key := first 3 (where .Data.Pages "Section" "publications").Reverse }}
+				           {{ sub $num_papes $index }}.  {{ .Render "view_frontpage" }}
+			        {{ end }}
+
+					<a href="/publications/">learn more <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
+				</ul>	
+	      </div>
 		</div>
 	</div>
+</div>
 
-	<div>
-		<div class="container">
-		    <div class="row" style="margin-top: 2em;">
-			  <div class="one-half column">
-					<h2 class="black center">Values</h3>
-					<p>We aim to further the scientific understanding of movement and manipulation in biological systems; and to apply this knowledge towards new engineering paradigms in robot design, fabrication, and control. To accomplish this we work at the intersections of robotics, physics, and biology. We value intellectual diversity, thinking outside the box, and outright curiosity. We are a team, and while individual advancements may be made, they are fostered in a collaborative environment where we challenge and support each other.</p>
-		      </div>
 
-		      <div class="one-half column">
-					<h2 class="red center">Recent papers</h2>
-					<ul>
-						<li>Prof. Gravish will be giving a talk at UC Riverside next on Halloween.</li>
-						<li>Looking forward to seeing the San Diego robotics community come together at the contextual robotics forum next Friday (XX)</li>	
-						<li>The Gravish lab has opened at UC San Diego in the MAE department.</li>
-					</ul>	
-		      </div>
-			</div>
-		</div>
-	</div>
-
-	<div class="body_block_1">
-		<div class="container">
-			<div class="row" style="padding-top: 2em; margin-top: 2em;">
-			  <div class="one-half column">
-					<h2 class="blue center">Mission statement</h2>
-					<p>We aim to further the scientific understanding of movement and manipulation in biological systems; and to apply this knowledge towards new engineering paradigms in robot design, fabrication, and control. To accomplish this we work at the intersections of robotics, physics, and biology. We value intellectual diversity, thinking outside the box, and outright curiosity. We are a team, and while individual advancements may be made, they are fostered in a collaborative environment where we challenge and support each other.</p>
-		      </div>
-
-		      <div class="one-half column">
-					<h2 class="yellow center">News</h2>
-					<ul>
-						<li>Prof. Gravish will be giving a talk at UC Riverside next on Halloween.</li>
-						<li>Looking forward to seeing the San Diego robotics community come together at the contextual robotics forum next Friday (XX)</li>	
-						<li>The Gravish lab has opened at UC San Diego in the MAE department.</li>
-					</ul>	
-		      </div>
-		    </div>
-		</div>
-	</div>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
-</html>
-
+{{ partial "footer.html" }}

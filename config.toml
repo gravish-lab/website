@@ -1,3 +1,8 @@
 baseurl = "http://gravishlab.ucsd.edu"
 languageCode = "en-us"
 title = "Gravish lab"
+
+[taxonomies]
+research = "research"
+category = "categories"
+series = "series"

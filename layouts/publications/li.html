@@ -1,0 +1,29 @@
+
+
+<li>
+<span style="font-weight: 600">{{ .Title }}.</span>
+
+{{ $num_authors := (len .Params.authors) }}
+{{ range $index, $key := .Params.authors }} 
+	{{ . }}{{ if lt (add $index 1) $num_authors}},{{ else }}.{{ end }}
+{{ end }}
+
+<em>{{ .Params.publication}}</em>. {{ .Date.Year }}
+<span> &nbsp&nbsp&nbsp&nbsp&nbsp</span>
+{{ if .Params.pdf }}
+<span>PDF:<span>&nbsp&nbsp</span><a href="/PDF/{{ .Params.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> </span>
+{{ end }}
+<span> &nbsp&nbsp&nbsp&nbsp&nbsp</span>
+{{ if .Params.supplementary }}
+SUPPLEMENTARY: <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+{{ end }}
+
+<span> &nbsp&nbsp&nbsp&nbsp&nbsp</span>
+
+{{ if .Params.links }}
+Links: 
+{{ end }}
+
+</li>
+<br />
+	
