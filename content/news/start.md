@@ -4,4 +4,4 @@ draft = false
 title = "start"
 +++
 
-The Gravish lab has opened in the [mechanical engineering department](http://maeweb.ucsd.edu/) at [UC San Diego](http://ucsd.edu).  
+The Gravish lab opened in the [mechanical engineering department](http://maeweb.ucsd.edu/) at [UC San Diego](http://ucsd.edu).  
