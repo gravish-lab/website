@@ -1,0 +1,739 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"mari",
+				"margin-bottom"
+			],
+			[
+				"color-link_",
+				"color-link_active"
+			],
+			[
+				"color_",
+				"color-link_hover"
+			],
+			[
+				"colo",
+				"color-header"
+			],
+			[
+				"color-b",
+				"color-branding"
+			],
+			[
+				"color",
+				"color-bodytext"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "layouts/index.html",
+			"settings":
+			{
+				"buffer_size": 2794,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nickgravish/Dropbox/Scripts/sync_lab_homepage.sh",
+			"settings":
+			{
+				"buffer_size": 140,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/section/news.html",
+			"settings":
+			{
+				"buffer_size": 494,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/section/publications.html",
+			"settings":
+			{
+				"buffer_size": 776,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/publications/view_pubs.html",
+			"settings":
+			{
+				"buffer_size": 1058,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/section/people.html",
+			"settings":
+			{
+				"buffer_size": 1543,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nickgravish/Dropbox/websites/PersonalWebsite/index.md",
+			"settings":
+			{
+				"buffer_size": 19440,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/scss/custom.scss",
+			"settings":
+			{
+				"buffer_size": 5962,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"la",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"late",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"recon",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"pagk",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 247.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nickgravish/Dropbox/Scripts/sync_homepage.sh",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/news/li.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/news/news_item.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/publications/view_pubs.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/partials/header.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/publications/view_frontpage.html",
+		"/Users/nickgravish/Dropbox/websites/PersonalWebsite/index.md",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/static/css/custom.css",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/index.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/section/people.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/publications/view.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/publications/li.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/people/li.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/content/publications/2014_Effect_of_volume_fraction_on_granular_avalanche_dynamics.md",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/content/citations.csv",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/section/news.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/section/research.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/partials/navbar.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/people/single.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/partials/footer.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/config.toml",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/about/single.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/news/single.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/partials/gray_map.html",
+		"/Users/nickgravish/Downloads/snazzy-maps-example-subtle-grayscale-style.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/_default/section.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/section/about.html",
+		"/Users/nickgravish/Dropbox/websites/PersonalWebsite/_layouts/front_page.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/section/resources.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/_default/single.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/content/people/mingsong_jiang.md",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/content/people/nick_gravish.md",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/news/news.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/people/people.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/public/news/contextual_forum/index.html",
+		"/Users/nickgravish/Dropbox/websites/gravishlab/layouts/news/SECTION.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/layouts/about/section.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/content/about.md",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/layouts/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/layouts/partials/header.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/layouts/news/section.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/public/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/layouts/about/single.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/layouts/partials/navbar.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/public/news/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/layouts/_default/section.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/layouts/_default/single.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/public/about/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/layouts/news/li.html",
+		"/Users/nickgravish/Google Drive/WebSites/spf13.com-master/config.toml",
+		"/Users/nickgravish/Google Drive/WebSites/spf13.com-master/layouts/partials/head_includes.html",
+		"/Users/nickgravish/Google Drive/WebSites/spf13.com-master/public/post/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/LabWebsite/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/layouts/_default/summary.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/layouts/news/single.html",
+		"/Users/nickgravish/Google Drive/WebSites/spf13.com-master/layouts/partials/header.html",
+		"/Users/nickgravish/Google Drive/WebSites/spf13.com-master/layouts/project/single.html",
+		"/Users/nickgravish/Google Drive/WebSites/spf13.com-master/public/project/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/spf13.com-master/layouts/section/project.html",
+		"/Users/nickgravish/Google Drive/WebSites/spf13.com-master/layouts/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/spf13.com-master/layouts/post/summary.html",
+		"/Users/nickgravish/Google Drive/WebSites/spf13.com-master/public/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/spf13.com-master/layouts/partials/details.html",
+		"/Users/nickgravish/Google Drive/WebSites/spf13.com-master/layouts/_default/single.html",
+		"/Users/nickgravish/Google Drive/WebSites/spf13.com-master/layouts/_default/title.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/content/news/UC_riverside.md",
+		"/Users/nickgravish/Google Drive/WebSites/academic/content/home/publications.md",
+		"/Users/nickgravish/Google Drive/WebSites/academic/content/home/projects.md",
+		"/Users/nickgravish/Google Drive/WebSites/academic/themes/academic/layouts/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/public/news/start/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/config.toml",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/public/news_posts/start/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/public/news/UC_riverside/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/public/news/contextual_forum/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/site/layouts/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/layouts/news/news.html",
+		"/Users/nickgravish/Google Drive/WebSites/academic/content/publication/clothing-search.md",
+		"/Users/nickgravish/Google Drive/WebSites/academic/content/home/publications_selected.md",
+		"/Users/nickgravish/Google Drive/WebSites/site/layouts/publications/single.html",
+		"/Users/nickgravish/Google Drive/WebSites/gravishlab/content/about/about.md",
+		"/Users/nickgravish/Google Drive/WebSites/site/layouts/partials/sidebar.html",
+		"/Users/nickgravish/Google Drive/WebSites/site/layouts/partials/meta.html",
+		"/Users/nickgravish/Google Drive/WebSites/site/content/resources/index.html",
+		"/Users/nickgravish/Google Drive/WebSites/LabWebsite/css/custom.css",
+		"/Users/nickgravish/Google Drive/WebSites/LabWebsite/css/custom_BAK.css",
+		"/Users/nickgravish/Google Drive/WebSites/site/layouts/page/single.html",
+		"/Users/nickgravish/Google Drive/WebSites/academic/content/project/example-external-project.md",
+		"/Users/nickgravish/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/nickgravish/Dropbox/SyncSettings/Sublime/User/Preferences.sublime-settings",
+		"/Users/nickgravish/Google Drive/WebSites/academic/content/project/deep-learning.md",
+		"/Users/nickgravish/Google Drive/WebSites/academic/themes/academic/layouts/partials/navbar.html",
+		"/Users/nickgravish/Google Drive/WebSites/academic/themes/academic/layouts/partials/header.html",
+		"/Users/nickgravish/Google Drive/WebSites/academic/themes/academic/layouts/section/post.html",
+		"/Users/nickgravish/Google Drive/WebSites/PersonalWebsite/_includes/head.html",
+		"/Users/nickgravish/Google Drive/WebSites/PersonalWebsite/_layouts/front_page.html",
+		"/Users/nickgravish/Google Drive/WebSites/LabWebsite/content.md",
+		"/Users/nickgravish/Google Drive/WebSites/site/layouts/partials/head_includes.html",
+		"/Users/nickgravish/Google Drive/WebSites/academic/content/home/about.md",
+		"/Users/nickgravish/Google Drive/WebSites/academic/content/home/contact.md",
+		"/Users/nickgravish/Google Drive/WebSites/academic/themes/academic/layouts/home/single.html",
+		"/Users/nickgravish/Google Drive/WebSites/academic/themes/academic/layouts/section/home.html",
+		"/Users/nickgravish/Dropbox/CoolVideoProcessing/styles.css",
+		"/Users/nickgravish/Dropbox/CoolVideoProcessing/test.html",
+		"/Users/nickgravish/Google Drive/WebSites/LabWebsite/base16-light.css",
+		"/Users/nickgravish/Desktop/House/fixed_rate_mortgages.csv",
+		"/Users/nickgravish/Desktop/House/fixed_rate_mortgages",
+		"/Users/nickgravish/Dropbox/icra 2017 paper/paper/Paper_NGG_v3.tex",
+		"/Users/nickgravish/Dropbox/icra 2017 paper/paper/gazestabilization.bib",
+		"/Users/nickgravish/Dropbox/ICRA 2017 Paper/paper/Paper_NGG_v2.tex",
+		"/Users/nickgravish/Dropbox/ICRA 2017 Paper/paper/Paper_NGG.tex",
+		"/Users/nickgravish/Dropbox/Harvard/ICRA_2016/Gravish_ICRA.tex",
+		"/Users/nickgravish/Dropbox/ICRA 2017 Paper/paper/ICRA_v1_NGG.tex",
+		"/Users/nickgravish/Dropbox/ICRA 2017 Paper/paper/root.tex",
+		"/Users/nickgravish/Dropbox/Harvard/HighThroughputExpt/AutomatedFlightExperement/Rig_documents/BitFlow_linux_driver_v9.04/README_dist",
+		"/Users/nickgravish/Dropbox/Harvard/HighThroughputExpt/AutomatedFlightExperement/Rig_documents/BitFlow_linux_driver_v9.04/install",
+		"/Users/nickgravish/Dropbox/Harvard/HighThroughputExpt/AutomatedFlightExperement/Rig_documents/OpenCV/OpenCVBufIn/BiOpenCV.c",
+		"/Users/nickgravish/Desktop/chat_with_sam",
+		"/Users/nickgravish/Dropbox/homepage/index.md",
+		"/Users/nickgravish/Dropbox/homepage/about/index.md",
+		"/Users/nickgravish/Dropbox/homepage/_site/ICRA2015/index.html",
+		"/Users/nickgravish/Dropbox/Grants/2016_ARO_PassiveDynamicsInsectFlight/flapping_wings_grant2.md",
+		"/Users/nickgravish/Dropbox/Grants/2016_ARO_PassiveDynamicsInsectFlight/grant.tex",
+		"/Users/nickgravish/Dropbox/Harvard/YawControlPaper_2016/Paper.tex",
+		"/Users/nickgravish/Dropbox/Harvard/BioInpsiredJoints/Paper/Bioinspired_joints_2015.tex",
+		"/Users/nickgravish/Dropbox/Harvard/BioInpsiredJoints/Paper/bioinspired_joints.bib",
+		"/Users/nickgravish/Dropbox/Reviews/2016_PRL_2/crassous_PRL_review.tex",
+		"/Users/nickgravish/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"p P",
+			"{{ $num_papes := len .Data.Pages }}",
+			"li",
+			"$num_authors",
+			"25",
+			"\">",
+			" 0px 1px 1px rgba(100, 100, 100, 0.49);\n    // -moz-box-shadow:    0px 1px 1px rgba(100, 100, 100, 0.49);\n    // box-shadow:         ",
+			"content",
+			"Content",
+			"750",
+			"google",
+			"googleap",
+			"publ",
+			"range",
+			"icon",
+			"hover",
+			"sylvain",
+			"ma12",
+			"ma",
+			"popup",
+			"/Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso",
+			"ubunt",
+			"bootst",
+			"jquery",
+			"honeybee",
+			"scale",
+			"XX",
+			"?",
+			"SI",
+			"vortex sh",
+			"2 \\pi",
+			"omega",
+			"f",
+			"v_{",
+			"outflow ",
+			"piezo",
+			"D^*",
+			"average",
+			"avera",
+			"approaching",
+			"approa",
+			"remain",
+			"frac{\\tau",
+			"#"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "layouts/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2510,
+								2510
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/nickgravish/Dropbox/Scripts/sync_lab_homepage.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "layouts/section/news.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								494,
+								494
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "layouts/section/publications.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								531,
+								531
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "layouts/publications/view_pubs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								647,
+								698
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "layouts/section/people.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1033,
+								1033
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/nickgravish/Dropbox/websites/PersonalWebsite/index.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19440,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17849,
+								17849
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6558.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "static/scss/custom.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3079,
+								3079
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1190.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 278.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"project": "gravishlab.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"footer",
+				"~/Dropbox/websites/gravishlab/layouts/partials/footer.html"
+			],
+			[
+				"20",
+				"~/Dropbox/Harvard/FanningFluidMechanics/ReSubmit/2014_FlowEnhancement_RESUBMIT.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

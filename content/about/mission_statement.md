@@ -6,4 +6,4 @@ title = "Mission statement"
 
 +++
 
-The goal of our lab is to further the scientific understanding of movement and manipulation in biological systems; and to apply this knowledge towards new engineering paradigms in robot design, fabrication, and control. Our aims are interdisciplinary in nature, and thus we value intellectual diversity, thinking outside the box, and outright curiosity. We believe that advancements are fostered in a collaborative environment where we challenge and support each other's work.
+The goal of our lab is to further the scientific understanding of movement and manipulation in biological systems; and to apply this knowledge towards new engineering paradigms in robot design, fabrication, and control. Our aims are interdisciplinary in nature, and thus we value intellectual diversity, thinking outside the box, and outright curiosity. We believe that advancements are best fostered in a collaborative environment where contributions, and constructive criticism from our peers are welcomed.
