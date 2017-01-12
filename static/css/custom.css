@@ -15,11 +15,11 @@
 /*    Background and header styles ------------------------------------------------
 */
 body {
-  background: #F2F0EC;
+  background: #FFFFFF;
   overflow-y: scroll; }
 
 .header {
-  background: #F2F0EC; }
+  background: #FFFFFF; }
 
 hr {
   border-top: solid 1px dimgrey;
@@ -144,7 +144,7 @@ ul {
     display: block;
     width: 100%;
     height: 100%;
-    background: #F2F0EC;
+    background: #FFFFFF;
     z-index: 99;
     border-top: 1px solid #888888;
     /*border-bottom: 1px solid #eee; */ }

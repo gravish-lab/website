@@ -1,13 +1,15 @@
 /*    SASS coloring ------------------------------------------------
 */
 
+// Original scheme
+// $colors: #F2F0EC,#F2F0EC,#F2777A,#515151,#515151,#515151,#99CC99,#66CCCC, #333000, #33C3F0;
 
-$colors: #F2F0EC,#F2F0EC,#F2777A,#515151,#515151,#515151,#99CC99,#66CCCC, #333000, #33C3F0;
+$colors: #FFFFFF,#F2F0EC,#F2777A,#515151,#515151,#515151,#99CC99,#66CCCC, #333000, #33C3F0;
 // $colors: #B9B9B9,#A9A9A9,#FF3B3F,#EFEFEF,#000000,#2EA4FF,#FFFFFF,#333000, #33C3F0;
 
 
 $color-bkg: nth($colors, 1);       /*    #B9B9B9;*/    
-$color-header: nth($colors, 2);
+$color-header: nth($colors, 1);
 $color-title: nth($colors, 3);       /*    #B9B9B9;*/    
 $color-subtitle: nth($colors, 4);       /*    #B9B9B9;*/    
 $color-branding: nth($colors, 5);       /*    #B9B9B9;*/    
