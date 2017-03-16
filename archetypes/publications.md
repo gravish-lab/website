@@ -1,14 +1,18 @@
 +++
-date = "2016-10-25T09:41:24-07:00"
-draft = false
-title = ""
-authors = ""
-journal = ""
+date = ""
 volume = ""
-number = ""
+image = ""
+videos = ""
 pages = ""
-year = ""
+press = ""
+Publication = ""
+link = ""
+PDF = ""
+Title = ""
 img = ""
-pub_type = ""
-
+Number = ""
+Supplementary = ""
+Authors = ""
+Publisher = ""
+paper_type = ""
 +++
