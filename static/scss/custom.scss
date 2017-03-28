@@ -23,6 +23,8 @@ $color-link_active: nth($colors, 9);       /*    #B9B9B9;*/
 
 $color-journal_badge: #e0e3e5;  //#e0e3e5;
 $color-conference_badge: nth($colors, 7);
+$color-book_chapter_badge: nth($colors, 10);
+
 
 $color-list: nth($colors, 4);
 $color-menu_border: #888888;
@@ -261,6 +263,17 @@ ul {
 
 .conference {
   background: $color-conference_badge;
+  font-size: 12.75px;
+  display: inline-block;
+  line-height: 1;
+  padding: 4px 7px 3px 7px;
+  color: #0f0f0f;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase; }
+
+.book_chapter {
+  background: $color-book_chapter_badge;
   font-size: 12.75px;
   display: inline-block;
   line-height: 1;

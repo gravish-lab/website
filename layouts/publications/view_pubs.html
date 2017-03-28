@@ -9,7 +9,11 @@
 	{{ . }}{{ if lt (add $index 1) $num_authors}},{{ else }}.{{ end }}
 {{ end }}
 
-<em>{{ .Params.publication}}</em>. {{ .Date.Year }}.
+<em>{{if .Params.publication }}{{ .Params.publication}}.{{ end }}</em> {{ .Date.Year }}. 
+
+{{ if .Params.state }}
+&nbsp&nbsp (<b>{{.Params.State}}</b>).
+{{ end }}
 
 <span> &nbsp&nbsp&nbsp&nbsp&nbsp</span>
 
@@ -20,6 +24,11 @@
 {{ if eq .Params.paper_type "Conference" }}
 <span class="conference">{{ .Params.paper_type}}</span>
 {{ end}}
+
+{{ if eq .Params.paper_type "Book chapter" }}
+<span class="book_chapter">{{ .Params.paper_type}}</span>
+{{ end}}
+
 
 <span> &nbsp&nbsp</span>
 

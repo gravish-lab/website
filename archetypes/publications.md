@@ -12,7 +12,8 @@ Title = ""
 img = ""
 Number = ""
 Supplementary = ""
-Authors = ""
+Authors = []
 Publisher = ""
 paper_type = ""
+state=""
 +++

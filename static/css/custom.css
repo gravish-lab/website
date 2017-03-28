@@ -217,6 +217,17 @@ ul {
   font-weight: normal;
   text-transform: uppercase; }
 
+.book_chapter {
+  background: #33C3F0;
+  font-size: 12.75px;
+  display: inline-block;
+  line-height: 1;
+  padding: 4px 7px 3px 7px;
+  color: #0f0f0f;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase; }
+
 .center {
   text-align: center; }
 
