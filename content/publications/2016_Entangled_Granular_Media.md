@@ -17,5 +17,5 @@
         "DI Goldman"
     ],
     "Publisher": "John Wiley & Sons",
-    "paper_type": "Journal"
+    "paper_type": "Book chapter"
 }

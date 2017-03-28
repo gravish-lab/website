@@ -18,16 +18,20 @@
             <h5 style="margin-bottom: 0em">{{ .Params.name }}</h5>
             <p style="margin-bottom: 0em">{{ .Params.email }}</p>
             {{ if .Params.cv }}
-            <span class="p" style="margin-bottom: 0em">CV: &nbsp;</span><a href="/PDF/{{ .Params.cv }}" style="margin-bottom: 0em"><i 
-            class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <span class="p" style="margin-bottom: 0em">CV: &nbsp;</span>
+			<a href="/PDF/{{ .Params.cv }}" style="margin-bottom: 0em">
+				<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+				<br >
             {{ end }}
 
-            {{ if .Params.websit }}
-            <a href="{{ .Params.website }}" style="margin-bottom: 0em">{{ .Params.website }}</a>
+            {{ if .Params.website }}
+            <span class="p" style="margin-bottom: 0em">WEB: &nbsp;</span><a href="{{ .Params.website }}" style="margin-bottom: 0em">
+				<i class="fa fa-link" aria-hidden="true"></i></a>
+				<br >
             {{ end }}
 
             {{ if .Params.image }}
-            <img src="/images/{{ .Params.image }}" style="width: 100%; margin-top: 1em">
+            <img src="/images/{{ .Params.image }}" style="width: 80%; margin-top: 1em">
             {{ end }}
         </div>
         <div class="seven columns tight">
