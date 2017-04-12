@@ -1,0 +1,21 @@
+
+{{ partial "header.html" . }}
+{{partial "navbar.html" . }}
+
+<div>
+  <div class="container">
+    {{ range $index, $element := .Data.Pages }}
+        <div class="row">
+        <div class="twelve columns">
+        <h5 class="center">{{ .Title }}</h5>
+          {{ .Content }}
+        </div>  
+        </div>
+		<hr width = "10%" />
+    {{ end }}
+  </div>
+</div>
+
+
+
+{{ partial "footer.html" . }}
