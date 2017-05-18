@@ -5,6 +5,8 @@ date = "2016-10-27T08:52:05-07:00"
 
 +++
 
+** This position has been filled **
+
 * **Position**: Postdoc researcher to study legged locomotion dynamics at low-mass
 * **Start date**: Early summer 2017
 * **Position duration**: 12 months with possibility of renewal
