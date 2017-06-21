@@ -1,5 +1,5 @@
 {
-    "Publication": "Robotics and Automation (ICRA), 2016 IEEE International Conference on",
+    "Publication": "IEEE International Conference on Robotics and Automation (ICRA)",
     "Pages": "3282-3287",
     "image": "",
     "Title": "Anomalous yaw torque generation from passively pitching wings",
