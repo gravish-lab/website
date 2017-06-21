@@ -1,6 +1,6 @@
 +++
 name = "(PI) Nick Gravish" 
-email = "gravish@ucsd.edu"
+email = "ngravish@ucsd.edu"
 website = "http://web.eng.ucsd.edu/~ngravish/"
 image = "nick_gravish.png"
 research = ""
