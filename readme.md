@@ -5,6 +5,17 @@ Built using the [skeleton](http://www.getskeleton.com) css boilerplate and [hugo
 
 Using Hugo v0.17 to compile, needs an updated version because uses .Scratch variable to increment a counter. 
 
+# Build instructions
+
+Because I am always forgetting the build steps:
+
+1. Git commit all changes 
+2. Check on local system that page works accordingly using '''hugo server -w'''
+3. Git merge to master (as necessary) 
+4. Git push to github 
+5. From terminal build static site while in base directory with '''hugo''' command
+6. From terminal run sync shell command '''sync_lab_homepage.sh''' which uses rsync through ssh to update site
+
 # License
 
 The material in `/content/` & `/static/` is copyright, Nick Gravish. All rights reserved.
