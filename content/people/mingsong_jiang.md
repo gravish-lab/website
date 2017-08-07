@@ -4,11 +4,11 @@ email = "mij032@eng.ucsd.edu"
 website = ""
 image = ""
 research = ""
-level = "Masters"
+level = "1"
 current = true
 date = "2016-10-24T22:09:44-07:00"
 draft = false
-title = "mingsong_jiang"
+title = "Masters"
 
 +++
 

@@ -7,10 +7,11 @@
   <div class="row" style="padding-top: 2em;">
     {{ range $index, $element := .Data.Pages.GroupByParam "level" "desc"}}
     {{ if eq (eq $index 0) false}}
-      <h3 class="center"> {{ .Key }} students </h3>
-    {{ end }}
+        <h3 class="center"> {{(index .Pages 0).Title }} </h3>
+      {{ end }}
 
     {{ range .Pages }}
+      
       <div class="row" style="margin-bottom: 2em;">
       <div class="one columns"> 
       </div> 
