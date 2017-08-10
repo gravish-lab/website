@@ -1,5 +1,5 @@
 +++
-image = ""
+image = "lab_members/shivam_chopra.jpg"
 name = "Shivam Chopra"
 CV = ""
 title = "Masters"

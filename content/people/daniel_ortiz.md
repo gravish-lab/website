@@ -5,7 +5,7 @@ name = "Daniel Ortiz"
 draft = false
 current = true
 level = "1"
-email = ""
+email = "dhortiz@eng.ucsd.edu"
 title = "Masters"
 research = ""
 image = ""
@@ -13,3 +13,4 @@ CV = ""
 
 +++
 
+Physics of soft-robot locomotion on sandy terrain.

@@ -2,7 +2,7 @@
 name = "Mingsong Jiang"
 email = "mij032@eng.ucsd.edu"
 website = ""
-image = ""
+image = "lab_members/mingsong_jiang.jpg"
 research = ""
 level = "1"
 current = true

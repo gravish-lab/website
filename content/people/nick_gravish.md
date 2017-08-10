@@ -23,11 +23,9 @@ I am interested in movement dynamics in biology and robotics. I am driven by dev
     * School of Engineering & Applied Sciences
     * Department of Organismic and Evolutionary Biology
     * Advisers: Robert J. Wood and Stacey A. Combes
-
 * Ph.D. in Physics at **Georgia Tech** (2008 - 2013)
     * Thesis: Collective dynamics of active and passive granular media
     * Minor: Mechanics of materials
     * Adviser: Daniel I. Goldman
-
 * B.S. in Physics at **UC Santa Barbara** (2001 - 2005)
     * Undergraduate Research Honors, 2004 & 2005

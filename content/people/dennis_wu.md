@@ -2,9 +2,9 @@
 title = "Masters"
 level = "1"
 research = ""
-image = ""
+image = "lab_members/dennis_wu.jpg"
 website = ""
-email = ""
+email = "dfw001@ucsd.edu"
 CV = ""
 name = "Dennis Wu"
 current = true
@@ -13,3 +13,4 @@ date = "2017-08-07T11:55:09-07:00"
 
 +++
 
+Flapping-wing fluid mechanics of compliant actuators. 

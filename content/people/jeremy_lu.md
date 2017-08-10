@@ -6,10 +6,10 @@ level = "0"
 research = ""
 title = "Undergraduate"
 website = ""
-email = ""
+email = "jeremylu1995@gmail.com"
 name = "Jeremy Lu"
 draft = false
-image = ""
+image = "lab_members/jeremy_lu.jpg"
 
 +++
 
