@@ -2,10 +2,10 @@
 Number = ""
 date = "2017-03-28T09:34:36-07:00"
 press = ""
-PDF = ""
-Publication = ""
+PDF = "science_robobee_water.pdf"
+Publication = "Science Robotics"
 pages = ""
-volume = ""
+volume = "2"
 img = ""
 Title = "A biologically inspired, flapping wing, hybrid aerial-aquatic microrobot"
 image = ""
@@ -28,7 +28,7 @@ Authors = [
 	"M Kovac", 
 	"RJ Wood"
 ]
-state = "In review"
+state = ""
 draft = false
 weight = 4
 

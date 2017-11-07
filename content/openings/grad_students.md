@@ -1,6 +1,6 @@
 +++
-draft = true
-title = "Graduate students in movement science for robotics and biomechanics"
+draft = false
+title = "Graduate students"
 date = "2016-10-27T08:52:05-07:00"
 
 +++
