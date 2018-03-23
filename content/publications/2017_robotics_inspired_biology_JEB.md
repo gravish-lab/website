@@ -1,6 +1,6 @@
 +++
-date = "2017-06-21T10:18:36-07:00"
-state = "In review"
+date = "2018-02-12T10:18:36-07:00"
+state = "In press"
 Title = "Robotics-inspired biology"
 paper_type = "Journal"
 Publisher = "IEEE"

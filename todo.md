@@ -1,4 +1,4 @@
 
 # Site todos
 
-1. Add steven and sayan
+1. Add sayan
