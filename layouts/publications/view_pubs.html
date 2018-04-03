@@ -37,6 +37,13 @@
 {{ end }}
 <span> &nbsp&nbsp&nbsp&nbsp&nbsp</span>
 <!-- <a><i class="ai ai-google-scholar ai-1x"></i></a> -->
+
+
+{{ if .Params.link }}
+<span>LINK:<span>&nbsp&nbsp</span><a href="/PDF/{{ .Params.pdf }}"><i class="fa fa-link" aria-hidden="true"></i></a> </span>
+{{ end }}
+<span> &nbsp&nbsp&nbsp&nbsp&nbsp</span>
+<!-- <a><i class="ai ai-google-scholar ai-1x"></i></a> -->
 <span> &nbsp&nbsp&nbsp&nbsp&nbsp</span>
 
 {{ if .Params.supplementary }}
