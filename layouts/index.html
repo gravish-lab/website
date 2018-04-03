@@ -51,7 +51,7 @@
 				<h4 class=" center">Recent papers</h4>
 			
 					{{ $num_papes := len (where .Data.Pages "Section" "publications") }}
-					{{ range $index, $key := first 3 (where .Data.Pages "Section" "publications") }}
+					{{ range $index, $key := first 3 (where .Data.Pages "Section" "publications").ByDate.Reverse }}
 				           {{ sub $num_papes $index }}.  {{ .Render "view_frontpage" }}
 			        {{ end }}
 
